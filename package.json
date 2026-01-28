@@ -2,7 +2,7 @@
   "name": "usage-status-bar",
   "displayName": "Usage Status Bar",
   "description": "Shows Cursor account usage in the status bar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "alexfhub",
   "repository": {
     "type": "git",
