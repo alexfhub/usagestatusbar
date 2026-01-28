@@ -32,6 +32,7 @@ Go to **cursor.com/dashboard → Settings tab → Advanced → Admin API Keys** 
 2. You should see a **usage status bar** section with the fields **Api Key**, **Search Email**, and **Refresh Interval Minutes**.
 3. Add the token and the email address associated with your Cursor account.
 ![Usage Status Bar settings](usagestatusbar_settings.png)
+4. **Restart Cursor**
 
 ### Method 2 — Via the Cursor settings
 
@@ -40,6 +41,7 @@ Go to **cursor.com/dashboard → Settings tab → Advanced → Admin API Keys** 
 3. Select **Preferences: Open Settings (UI)** (or **Open Settings**).
 4. The Settings window will open with a search field at the top. Type **usage status bar** into the search.
 5. You should see a **usage status bar** section with the fields **Api Key**, **Search Email**, and **Refresh Interval Minutes**.
+6. **Restart Cursor**
 
 If **Cmd + ,** in Cursor opens **“Cursor Settings”** (account/plan), note that extension settings are **not** located there. You need to access them via **Command Palette → “Open Settings (UI)”**, not through Cursor Settings.
 
@@ -53,6 +55,7 @@ If **Cmd + ,** in Cursor opens **“Cursor Settings”** (account/plan), note th
   "usageStatusBar.searchEmail": "your-email@example.com"
 }
 ```
+3. **Restart Cursor**
 
 ## Support me
 
