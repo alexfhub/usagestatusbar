@@ -4,6 +4,7 @@
   "description": "Shows Cursor account usage in the status bar",
   "version": "0.1.0",
   "publisher": "alexfhub",
+  "repository": "https://github.com/alexfhub/cursor-spending-extension",
   "license": "MIT",
   "keywords": ["cursor", "usage", "spending", "status bar"],
   "icon": "usagestatusbar_logo.png",
