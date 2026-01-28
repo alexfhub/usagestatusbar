@@ -1,0 +1,46 @@
+{
+  "name": "usage-status-bar",
+  "displayName": "Usage Status Bar",
+  "description": "Shows Cursor account usage in the status bar",
+  "version": "0.1.0",
+  "publisher": "alexfhub",
+  "license": "MIT",
+  "keywords": ["cursor", "usage", "spending", "status bar"],
+  "icon": "usagestatusbar_logo.png",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": ["*"],
+  "main": "./extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Usage Status Bar",
+      "properties": {
+        "usageStatusBar.apiKey": {
+          "type": "string",
+          "default": "",
+          "description": "Navigate to cursor.com/dashboard → Settings tab → Advanced → Admin API Keys (accessible only from the Teams admin account)"
+        },
+        "usageStatusBar.searchEmail": {
+          "type": "string",
+          "default": "",
+          "description": "Team member's email address used to display expenses"
+        },
+        "usageStatusBar.refreshIntervalMinutes": {
+          "type": "number",
+          "default": 5,
+          "minimum": 1,
+          "maximum": 60,
+          "description": "Refresh interval (minutes)"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "usageStatusBar.refresh",
+        "title": "Usage Status Bar: Refresh"
+      }
+    ]
+  }
+}
