@@ -15,7 +15,7 @@
     "vscode": "^1.74.0"
   },
   "categories": ["Other"],
-  "activationEvents": ["*"],
+  "activationEvents": ["onStartupFinished"],
   "main": "./extension.js",
   "contributes": {
     "configuration": {
